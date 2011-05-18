@@ -17,7 +17,8 @@ rvm install ree
 rvm --default ruby-1.9.2
 rvm default
 
-gem install passenger --no-rdoc --no-ri
+# pow
+curl get.pow.cx | sh
 
 ruby -e "$(curl -fsS http://gist.github.com/raw/323731/install_homebrew.rb)"
 
