@@ -43,7 +43,6 @@ brew install memcached
 brew install monit
 brew install mysql
 brew install nginx --with-passenger
-brew install node
 brew install npm
 brew install pngcrush
 brew install postgresql
@@ -56,15 +55,18 @@ brew install varnish
 brew install wget
 brew install wkhtmltopdf
 
+# Install npm
+curl http://npmjs.org/install.sh | sh
+
 # Node packages
-npm install coffee-script
-npm install express
-npm install hamljs
-npm install jade
-npm install jake
-npm install mongodb
-npm install mongoose
-npm install sass
+npm -g install coffee-script
+npm -g install express
+npm -g install hamljs
+npm -g install jade
+npm -g install jake
+npm -g install mongodb
+npm -g install mongoose
+npm -g install sass
 
 mkdir ~/workspace
 
