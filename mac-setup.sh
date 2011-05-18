@@ -24,37 +24,36 @@ ruby -e "$(curl -fsS http://gist.github.com/raw/323731/install_homebrew.rb)"
 
 # Install packages
 brew install ack
-brew install asterisk
+# brew install asterisk
 brew install bcrypt
 brew install bzip2
-brew install coffee-script
 brew install couchdb
 brew install ctags
 brew install curl
-brew install ffmpeg
-brew install git
-brew install graphviz
+# brew install ffmpeg
+# brew install git
+# brew install graphviz
 brew install growlnotify
 brew install httperf
-brew install imagemagick
+# brew install imagemagick
 brew install lorem
-brew install macvim
+# brew install macvim
 brew install markdown
-brew install memcached
-brew install monit
+# brew install memcached
+# brew install monit
 brew install mysql
-brew install nginx --with-passenger
-brew install npm
-brew install pngcrush
+# brew install nginx --with-passenger
+brew install node
+# brew install pngcrush
 brew install postgresql
 brew install python
-brew install readline
+# brew install readline
 brew install rsync
-brew install sphinx
+# brew install sphinx
 brew install sqlite
-brew install varnish
+# brew install varnish
 brew install wget
-brew install wkhtmltopdf
+# brew install wkhtmltopdf
 
 # Install npm
 curl http://npmjs.org/install.sh | sh
