@@ -68,6 +68,14 @@ npm -g install mongodb
 npm -g install mongoose
 npm -g install sass
 
+# Meslo font
+wget https://github.com/downloads/andreberg/Meslo-Font/Meslo%20LG%20DZ%20v1.0.zip
+unzip Meslo\ LG\ DZ\ v1.0.zip
+cd Meslo\ LG\ DZ\ v1.0
+for file in *.ttf; do
+  mv $file ~/Library/Fonts/$file;
+done
+
 mkdir ~/workspace
 
 # Dotfiles
