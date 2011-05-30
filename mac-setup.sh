@@ -68,6 +68,10 @@ npm -g install mongodb
 npm -g install mongoose
 npm -g install sass
 
+# ZSH
+# wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
+# Set theme to kennethreitz in ~/.zshrc
+
 # Meslo font
 wget https://github.com/downloads/andreberg/Meslo-Font/Meslo%20LG%20DZ%20v1.0.zip
 unzip Meslo\ LG\ DZ\ v1.0.zip
