@@ -30,6 +30,7 @@ brew install bzip2
 brew install couchdb
 brew install ctags
 brew install curl
+brew install erlang
 # brew install ffmpeg
 # brew install git
 # brew install graphviz
@@ -47,6 +48,7 @@ brew install node
 # brew install pngcrush
 brew install postgresql
 brew install python
+brew install rebar
 # brew install readline
 brew install rsync
 # brew install sphinx
