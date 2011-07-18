@@ -1,6 +1,39 @@
 #!/bin/bash
 
 ## General settings
+# Also see: http://www.mactricksandtips.com/2008/02/top-50-terminal-commands.html
+
+# Finder
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+defaults write com.apple.finder QuitMenuItem -bool true
+defaults write com.apple.finder DesktopViewOptions -dict IconSize -integer 72
+defaults write com.apple.finder AppleShowAllFiles true
+
+# Safari
+defaults write com.apple.Safari IncludeDebugMenu 1
+defaults write com.apple.Safari WebKitDeveloperExtras -bool true
+
+# iTunes
+defaults write com.apple.iTunes allow-half-stars -bool true
+defaults write com.apple.iTunes invertStoreLinks -bool true
+
+# Dock
+defaults write com.apple.Dock autohide -bool true
+defaults write com.apple.dock largesize -int 65
+defaults write com.apple.dock tilesize -int 45
+
+# Spotlight
+sudo chmod 0 /System/Library/CoreServices/Spotlight.app
+
+# Mouse
+defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode "TwoButton"
+
+# Printing
+defaults write -g PMPrintingExpandedStateForPrint -bool true
+
+killall Finder
+killall Dock
+killall Spotlight
 
 # Do not hide ~/Library in Lion
 chflags nohidden /Users/robbycolvin/Library
