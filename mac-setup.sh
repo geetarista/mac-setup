@@ -39,7 +39,7 @@ brew install growlnotify
 brew install httperf
 # brew install imagemagick
 brew install lorem
-# brew install macvim
+brew install macvim --override-system-vim
 brew install markdown
 # brew install memcached
 # brew install monit
@@ -57,6 +57,10 @@ brew install sqlite
 # brew install varnish
 brew install wget
 # brew install wkhtmltopdf
+
+# Link all applications
+mkdir ~/Applications
+brew linkapps
 
 # Install npm
 curl http://npmjs.org/install.sh | sh
