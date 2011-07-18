@@ -1,5 +1,10 @@
 #!/bin/bash
 
+## General settings
+
+# Do not hide ~/Library in Lion
+chflags nohidden /Users/robbycolvin/Library
+
 # Remove system Ruby
 sudo rm -r /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8
 sudo gem update --system
