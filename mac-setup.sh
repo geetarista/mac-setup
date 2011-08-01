@@ -141,7 +141,7 @@ sh install.sh
 # sudo env ARCHFLAGS="-arch x86_64" gem install mysql2 --no-rdoc --no-ri -- --with-mysql-config `which mysql_config`
 
 # Start passenger standalone for all applications
-cd ~/workspace && sudo passenger start -p 80 -u (some_unprivileged_username)
+# cd ~/workspace && sudo passenger start -p 80 -u (some_unprivileged_username)
 
 # MySQL local config
 cat << MYCNF > /usr/local/var/mysql/my.cnf
