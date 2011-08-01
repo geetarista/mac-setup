@@ -138,6 +138,12 @@ git clone git@github.com:geetarista/vimfiles.git
 cd vimfiles
 sh install.sh
 
+# dotjs
+cd ~/workspace
+git clone http://github.com/defunkt/dotjs
+cd dotjs
+rake install
+
 # sudo env ARCHFLAGS="-arch x86_64" gem install mysql2 --no-rdoc --no-ri -- --with-mysql-config `which mysql_config`
 
 # Start passenger standalone for all applications
