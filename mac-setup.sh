@@ -144,6 +144,11 @@ git clone http://github.com/defunkt/dotjs
 cd dotjs
 rake install
 
+# ego xcode theme
+mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes
+cd ~/Library/Developer/Xcode/UserData/FontAndColorThemes
+curl -O http://developers.enormego.com/assets/egotheme/EGOv2.dvtcolortheme
+
 # sudo env ARCHFLAGS="-arch x86_64" gem install mysql2 --no-rdoc --no-ri -- --with-mysql-config `which mysql_config`
 
 # Start passenger standalone for all applications
