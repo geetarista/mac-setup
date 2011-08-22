@@ -116,6 +116,10 @@ npm -g install sass
 # wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
 # Set theme to kennethreitz in ~/.zshrc
 
+mkdir ~/src
+
+cd ~/src
+
 # Meslo font
 wget https://github.com/downloads/andreberg/Meslo-Font/Meslo%20LG%20DZ%20v1.0.zip
 unzip Meslo\ LG\ DZ\ v1.0.zip
@@ -123,6 +127,12 @@ cd Meslo\ LG\ DZ\ v1.0
 for file in *.ttf; do
   mv $file ~/Library/Fonts/$file;
 done
+cd ..
+
+# Install Hex Color Picker
+http://wafflesoftware.net/hexpicker/download/1.6.1/
+unzip HexColorPicker-1.6.1.zip
+mv Hex\ Color\ Picker/HexColorPicker.colorPicker ~/Library/ColorPickers
 
 mkdir ~/workspace
 
