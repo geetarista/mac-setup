@@ -154,6 +154,9 @@ git clone http://github.com/defunkt/dotjs
 cd dotjs
 rake install
 
+# set up local crontab from dotfiles
+crontab ~/.crontab
+
 # ego xcode theme
 mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes
 cd ~/Library/Developer/Xcode/UserData/FontAndColorThemes
