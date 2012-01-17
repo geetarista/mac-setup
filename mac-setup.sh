@@ -201,8 +201,7 @@ brew install --debug node
 brew install postgresql
 brew install python
 brew install rebar
-brew install rbenv
-brew install ruby-build
+# brew install ruby-build
 # brew install rsync
 # brew install sphinx
 # brew install sqlite
@@ -214,10 +213,20 @@ brew install wget
 mkdir $HOME/Applications
 brew linkapps
 
-# Install rubies
-ruby_version=1.9.2-p290
-ruby-build $ruby_version $HOME/.rbenv/versions/$ruby_version
-rbenv global $ruby_version
+# python
+easy_install pip
+pip install --upgrade distribute
+
+# Install rbenv
+# ruby_version=1.9.3-p0
+# ruby-build $ruby_version $HOME/.rbenv/versions/$ruby_version
+# rbenv global $ruby_version
+
+# Install rvm
+bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer )
+. $HOME/.rvmrc
+rvm install 1.9.3
+rvm --default 1.9.3
 
 # Install pygments
 easy_install pip
