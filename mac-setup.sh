@@ -311,10 +311,14 @@ gem install vagrant
 
 rbenv rehash
 
-# ego xcode theme
+## Xcode themes
 mkdir -p $HOME/Library/Developer/Xcode/UserData/FontAndColorThemes
 cd $HOME/Library/Developer/Xcode/UserData/FontAndColorThemes
+# ego
 curl -O http://developers.enormego.com/assets/egotheme/EGOv2.dvtcolortheme
+
+# Pastel
+curl -O https://github.com/dannygreg/Pastel/blob/master/Pastel%20-%20Menlo.dvtcolortheme
 
 echo $sudo_pass | sudo softwareupdate -i -a
 
