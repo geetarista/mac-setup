@@ -296,7 +296,7 @@ sh install.sh
 # Needs chrome installed
 
 # dotjs
-cd $HOME/workspace
+cd $HOME/src
 git clone https://github.com/defunkt/dotjs
 cd dotjs
 echo "y" | rake install
